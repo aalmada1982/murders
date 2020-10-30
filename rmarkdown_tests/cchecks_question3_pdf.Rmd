@@ -1,0 +1,8 @@
+---
+title: "Final Grade Distribution"
+output: html_document
+---
+```{r, echo=FALSE}
+load(file="my_data.Rmd")
+summary(grades)
+```
